@@ -1,0 +1,55 @@
+@import url("header.css");
+@import url("main.css");
+@import url("recentes.css");
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.newsletter {
+	padding: 20px 16px;
+	color: #002F52;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.newsletter h1 {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 27px;
+}
+
+.newsletter p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.email {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	border: 1px solid #002F52;
+	border-radius: 24px;
+	padding: 8px 16px;
+	display: flex;
+	justify-content: center;
+}
+
+.email::before {
+	content: url(img/Email.svg);
+	padding-right: 8px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+	border-top: 1px solid #000000;
+	padding: 20px 24px;
+	margin-bottom: 12px;
+}
+
+

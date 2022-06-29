@@ -1,0 +1,30 @@
+.recentes {
+	background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+	background-size: contain;
+	padding: 24px 20px;
+	
+}
+
+.recentes__titulo {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.recentes__links {
+	text-align: center;
+}
+
+.recentes__botao {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	padding: 16px 24px;
+	color: #ffffff;
+	border: none;
+	background-color: #EB9B00;
+	margin: 8px;
+}
